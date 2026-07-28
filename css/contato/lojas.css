@@ -19,6 +19,17 @@
   border-radius: 4px;
   background: var(--cor-0);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.lojas-item iframe {
+  border: none;
+  filter: grayscale(100%) invert(95%) contrast(90%);
+  transition: filter 0.3s ease;
+}
+
+.lojas-item iframe:hover {
+  filter: grayscale(0%) invert(0%) contrast(100%);
 }
 
 .lojas-conteudo {
